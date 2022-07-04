@@ -7,12 +7,11 @@
 
 
 /**
- * main -> assign a random numbers to thw variable n eachtime it is executed and prints out
- * based a comdition
+ * main -> assign a random numbers to the variable
  * return : always 0
 */
-int main(void)
 
+int main(void)
 {
 
 int n;
