@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 /**
- * main ->  program that prints all possible different combinations of two digits.
- * Return: Aways 0 (Sucess)
+ * main -> program that prints all possible different comb
+ * Return: Always 0(Sucess)
  */
-int main (void)
+int main(void)
 {
 	int ch;
+
 	int n;
+
 	for (ch = 48; ch <= 57 ; ch++)
 	{
-		for(n = 49; n <= 57; n++)
+		for (n = 49; n <= 57; n++)
 		{
 			if (n > ch)
 			{
@@ -24,7 +26,7 @@ int main (void)
 			}
 		}
 	}
-			putcahr(10); /*ascii for line*/
+			putchar(10); /*ascii for line*/
 
 			return (0);
 }

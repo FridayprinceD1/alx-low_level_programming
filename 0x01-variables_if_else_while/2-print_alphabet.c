@@ -9,14 +9,15 @@
  * Return :always 0
  */
 
-int main(void)
+void main(void)
 {
 	int ch;
+
 	for (ch = 97; ch <= 122; ch++)
 	{
 		putchar(ch);
 	}
-	putchar("10"); /* ASCII CODE  for new line */
+	putchar('\n'); /* ASCII CODE  for new line */
 
 	return (0);
 }

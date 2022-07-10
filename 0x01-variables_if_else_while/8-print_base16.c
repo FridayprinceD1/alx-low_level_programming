@@ -10,16 +10,17 @@ int main(void)
 	 * 1 2 3 4 5 6 7 8 9 a b c d e f
 	 */
 	char ch;
-	int n
-	for (n = '40'; n  >= '57'; n++)
+	int n;
+
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(n);
+		putchar(n + '0');
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
-	putchar(10);
+	putchar('\n');
 
 	return (0);
 }
