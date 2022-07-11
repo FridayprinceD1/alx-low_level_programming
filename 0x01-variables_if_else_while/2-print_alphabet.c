@@ -5,11 +5,11 @@
 #include <stdio.h>
 
 /**
- * main -> assign a random number to the variable n each time it is executed
+ * main -> assign a random nubit is executed
  * Return :always 0
  */
 
-void main(void)
+int main(void)
 {
 	int ch;
 
