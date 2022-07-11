@@ -6,7 +6,7 @@
 
 /**
  * main -> assign a random nubit is executed
- * Return :always 0
+ * Return: always 0
  */
 
 int main(void)

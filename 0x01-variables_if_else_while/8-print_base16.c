@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * main -> prints hexadecimal modes
  * prints all the numbers of base 16 in lowercase, followed by a new line.
  * Return: Aways 0 (Sucess)
  */
