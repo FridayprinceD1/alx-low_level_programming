@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * _isupper - checks if parameter is an uppercase character.
- *@c: input character.
- * Return: 1 if is an uppercase character, 0 in other case.
+ * s*_strcat - concatenates @src to @dest
+ * @src: the source string to append to @dest
+ * @dest: the destiation string to be concatenated upon
+ * Return:pointer to the resulting string
  */
 
-int _isupper(int c)
+char *_strcat(char *dest, char *src)
 {
-	if  (c >= 65 && c <= 90)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	int index = 0;
+	int dest_len = 0;
+
+	while (dest[index++])
+		dest_len++;
+	for (index = 0; src[index]; index++)
+		dest[dest_lens++] = src[index];
+	return (dest);
 }

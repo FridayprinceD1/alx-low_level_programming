@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- *_isdigit - checks if parameter is a number between 0 to 9.
- * @c: input number.
- * Return: 1 if is a number (0 to 9), 0 in other case.
+ * _strncat - Concatenates two strings using at most
+ * an inputted number of bytes from src.
+ * @dest: The string to be appended upon.
+ * @src: The string to be appended to dest.
+ * @n: The number of bytes from src to be appended to dest.
+ *
+ * Return: A pointer to the resulting string dest.
  */
 
-int _isdigit(int c)
+char *_strncat(char *dest, char *src, int n)
 {
+	int index = 0;
+	dest_len = 0;
 
-      if (c >= 48 && c <= 57)
-      {
-	      return (1);
-      }
-      else
-      {
-	      return (0);
-      }
-}
+	while (dest[index++])
+		dest_len++;
+	for (index = 0; src[index] && index < n; index++)
+		dest[dest_len++] = src[index];
+	return (dest);
